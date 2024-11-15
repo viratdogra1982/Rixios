@@ -283,7 +283,7 @@ function App() {
  </div>
 
 
-<div className='bg-orange-900'>
+<div className="bg-customBrown text-white p-4 mt-16">
  <div className='mt-16'>
  <div className='text-center text-2xl'>
  PRIVILEGE AND RECOGNITION - AT HOME AND
@@ -302,6 +302,8 @@ function App() {
  <div className='text-center text-lg'>
  BENEFITS PROGRAM*, AFFORDING YOU VVIP STATUS ON A GLOBAL BASIS.
  </div>
+
+ <div className='mt-2'>
  <div className='text-center text-lg'>
  Elevate your standing as a member of an exclusive club, effortlessly aligning yourself with
  </div>
@@ -310,6 +312,7 @@ function App() {
  </div>
  <div className='text-center text-lg'>
  journey within the Accor global network.
+ </div>
  </div>
  
  </div>
@@ -384,6 +387,226 @@ function App() {
 </div>
 
 </div>
+
+<div className="pt-16 bg-neutral-700 text-white">
+  <div className="text-center text-2xl">
+    LOCATION AND COMMUNITY
+  </div>
+
+  <div className="flex flex-col items-center justify-center mb-6 pt-2">
+    <img 
+      src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/inline-logo-golden.svg" 
+      alt="Logo" 
+    />
+    {/* Text that should appear below the image */}
+    <div className="text-center mt-4">
+      The perfect blend of luxury living and community life
+    </div>
+  </div>
+
+  <div className="flex flex-col md:flex-row items-start justify-between">
+    <div className="md:w-1/2 text-white">
+      <div className="mb-4 md:mb-0">
+        The perfect blend of luxury living and community life
+      </div>
+
+      <div className="mt-4">
+        <div>THE DUBAI MALL</div>
+        <div>1 minute (150 m)</div>
+      </div>
+
+      <div className="mt-4">
+        <div>DUBAI CANAL</div>
+        <div>1 minute (150 m)</div>
+      </div>
+
+      <div className="mt-4">
+        <div>BURJ KHALIFA</div>
+        <div>2 minutes (800 m)</div>
+      </div>
+
+      <div className="mt-4">
+        <div>DUBAI OPERA</div>
+        <div>5 minutes (1.1 km)</div>
+      </div>
+
+      <div className="mt-4">
+        <div>DIFC</div>
+        <div>5 minutes (2 km)</div>
+      </div>
+
+      <div className="mt-4">
+        <div>DUBAI INTERNATIONAL AIRPORT</div>
+        <div>15 minutes (8 km)</div>
+      </div>
+    </div>
+
+    <div className="md:w-1/2 md:ml-8 mt-4 md:mt-0 m-12">
+      <img
+        src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/section-6-map.jpg"
+        alt="Map"
+        className="w-full h-auto object-cover"
+      />
+    </div>
+  </div>
+
+  <div className="text-center mt-8 text-white pb-4">
+    <div>
+      Conveniently located in close proximity to multiple private international schools, including:
+    </div>
+
+    <div>
+      The English College | JSS Private School | Safa British School
+    </div>
+  </div>
+</div>
+
+<div className='mt-16 bg-neutral-100 -mt-2 pt-24'>
+<div className='text-center text-2xl'>
+DISCOVER RIXOS
+</div>
+
+<div className="flex items-center justify-center mb-6 pt-2">
+    <img src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/inline-logo-golden.svg" alt="Logo" />
+  </div>
+
+  <div className='text-center'>
+    <div>
+    Rixos is renowned for delivering excellence in hospitality, founded on the principles of luxury
+    </div>
+    <div>
+    and convenience, and boasting an international presence across Europe, the Middle East,
+    </div>
+    <div>
+    and Africa, including Turkey, UAE, Egypt, and Russia. Rixos Residences embody this spirit
+    </div>
+    <div>
+    with thoughtfully designed spaces that fosters a sense of community and unity, without
+    </div>
+    <div>
+    compromising your need for privacy and tranquility.
+    </div>
+  </div>
+
+
+  <div className="grid grid-cols-4 gap-8 mt-24 m-12">
+  <div className="flex flex-row items-start space-x-4">
+    <img src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/discover-0.jpg" alt="Luxury Destination" className="w-1/4 h-auto object-cover" />
+    <div>
+      <h3 className="text-lg font-bold mb-2">LUXURY DESTINATIONS</h3>
+      <p className="text-sm">
+        Rixos Hotels is a global luxury hotel brand with properties in some of the most sought-after destinations around the world.
+        With impeccable service, breathtaking locations, and world-class amenities, an unforgettable luxury experience awaits.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex flex-row items-start space-x-4">
+    <img src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/discover-1.jpg" alt="Kids Activities" className="w-1/4 h-auto object-cover" />
+    <div>
+      <h3 className="text-lg font-bold mb-2">KIDS ACTIVITIES</h3>
+      <p className="text-sm">
+        The Rixy Kids Club offers a fun and educational atmosphere for children aged 4-12, with planned activities that keep kids engaged all day.
+        Relax knowing your child will be entertained while you enjoy yourself.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex flex-row items-start space-x-4">
+    <img src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/discover-2.jpg" alt="Spa & Wellness" className="w-1/4 h-auto object-cover" />
+    <div>
+      <h3 className="text-lg font-bold mb-2">SPA & WELLNESS</h3>
+      <p className="text-sm">
+        The luxury spas offer locally-inspired therapies blended with rich Turkish traditions, featuring a Turkish hammam and expert therapists for bespoke well-being journeys.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex flex-row items-start space-x-4">
+    <img src="https://www.rixosfinancialcenterroaddubairesidences.com/assets/imgs/discover-3.jpg" alt="Sports & Activities" className="w-1/4 h-auto object-cover" />
+    <div>
+      <h3 className="text-lg font-bold mb-2">SPORTS & ACTIVITIES</h3>
+      <p className="text-sm">
+        Reach your fitness goals with group classes, sports coaching, and state-of-the-art facilities, with classes from soothing yoga flows to cardio kickboxing sessions—and activities like snorkeling, horseback riding, and beach volleyball.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div>
+  <div className='text-center text-2xl'>
+    REGISTER NOW
+  </div>
+
+  <div className='flex flex-wrap gap-4 justify-center'>
+
+     
+    <div className='w-full sm:w-1/2 text-semibold'>
+      <input 
+        type="text" 
+        placeholder="First Name" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+    
+    <div className='w-full sm:w-1/2'>
+      <input 
+        type="text" 
+        placeholder="Last Name" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+
+   
+    <div className='w-full sm:w-1/2'>
+      <input 
+        type="text" 
+        placeholder="Email Address" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+
+    <div className='w-full sm:w-1/2'>
+      <input 
+        type="number" 
+        placeholder="Phone" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+
+   
+    <div className='w-full sm:w-1/2'>
+      <input 
+        type="number" 
+        placeholder="Company" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+
+    <div className='w-full sm:w-1/2'>
+      <input 
+        type="number" 
+        placeholder="Purpose" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+
+ 
+    <div className='w-full'>
+      <input 
+        type="number" 
+        placeholder="Message" 
+        className="border border-gray-600 rounded px-4 py-2 w-full" 
+      />
+    </div>
+  </div>
+</div>
+
+
+
 
   </div>
   );
